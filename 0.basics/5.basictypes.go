@@ -8,6 +8,7 @@ func main() {
 	var a bool
 	fmt.Println(a)
    var sign int8 = -128
-   var unsign uint8
+   var unsign uint8 
+   
 
 }
