@@ -8,6 +8,7 @@ func main() {
           fmt.Println(i,j,i ^ j )
 	}
 
+	
 a := 10
 
 b := 12
