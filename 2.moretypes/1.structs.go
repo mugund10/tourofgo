@@ -1,21 +1,14 @@
 package main
 
-import "fmt"
-
-type Sex bool
-
-const (
-    Male   Sex = true
-    Female Sex = false
+import (
+    "fmt"
+    "github.com/mugund10/tourofgo/2.moretypes/packs"
 )
 
-type hooman struct {
-    name string
-    age  int
-    sex  Sex
-}
+var mugu bool = true
 
 func main() {
-    mugu := hooman{"mugu", 24, Male}
+    hooman := packs.Hooman{}
+    mugu = hooman.NewHooman("mugu", 24, "Male")
     fmt.Println(mugu)
 }
