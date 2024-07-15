@@ -1,9 +1,23 @@
 package main
 
+import "fmt"
+
+
+const (
+	a = iota
+	b
+	c
+	d
+	e
+	f
+	g
+	h
+	i
+	j
+	k
+)
 
 func main() {
-
-	var a[12] int 
-	a[0] = 1
-	a[11] = 12
+arr := []int{a,b,c,d,e,f,g,h,i,j,k}
+fmt.Println(arr)
 }
