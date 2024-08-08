@@ -1,8 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
 func main()  {
+	tt := time.Now()
+	defer func(){
+		fmt.Println(time.Since(tt))
+	}()
 	newfib := fibo()
 	for i := 0 ; i <10 ; i++ {
 		fmt.Println(newfib())
