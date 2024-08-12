@@ -45,8 +45,8 @@ func main() {
 	bc <- "a"
 	bc <- "b"
 	bc <- "c"
-	bc <- "d"
-	fmt.Println(<-bc,<-bc,<-bc,<-bc)
+	//bc <- "d"
+	fmt.Println(<-bc,<-bc,<-bc)
 
 
 }
